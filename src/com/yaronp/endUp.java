@@ -9,7 +9,7 @@ public class endUp {
         assert stringTimes("Hi", 2).equals("HiHi");
         assert stringTimes("Hi", 3).equals("HiHiHi");
     }
-    private static String endUpF(String str) {
+    public static String endUpF(String str) {
         if(str.length() < 3)
             return str.toUpperCase();
         else {
@@ -18,7 +18,7 @@ public class endUp {
         }
     }
 
-    private static String stringTimes(String str, int n) {
+    public static String stringTimes(String str, int n) {
         return n > 0 ? str + stringTimes(str,n-1) : str;
     }
 }

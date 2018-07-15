@@ -12,7 +12,7 @@ public class doubling {
         doubling([]) → []
         */
     }
-    public List<Integer> doublingF(List<Integer> nums) {
+    public static List<Integer> doublingF(List<Integer> nums) {
             nums.replaceAll(n -> n * 2);
             return nums;
 
