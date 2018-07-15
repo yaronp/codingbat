@@ -13,8 +13,8 @@ public class endUpTest extends Object {
         assertThat(com.yaronp.endUp.endUpF("hi there"), equalTo("hi thERE"));
         assertThat(com.yaronp.endUp.endUpF("hi"), equalTo("HI"));
 
-        assertThat(com.yaronp.endUp.stringTimes("Hi", 2), equalTo("HiHi"));
-        assertThat(com.yaronp.endUp.stringTimes("Hi", 3), equalTo("HiHiHi"));
+        assertThat(com.yaronp.endUp.stringTimes("Hi", 2), equalTo("HiHiHi"));
+        assertThat(com.yaronp.endUp.stringTimes("Hi", 3), equalTo("HiHiHiHi"));
 
     }
 }
